@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Draft Board</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="game.js"></script>
+
+      
+   </head>
+   <body>
+      <div class='playerList' style='position:relative; left:0px; top:0px; width:230px'>
+         <script>createPlayerList();</script>
+         <script>fixList();</script>
+      </div>
+      <div class='teamList' style='position:relative; left:500px; top:0px;'>
+      </div>
+      <div class='drafted'></div>
+   </body>
+</html>
